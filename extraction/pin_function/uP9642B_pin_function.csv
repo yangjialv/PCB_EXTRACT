@@ -1,0 +1,42 @@
+NO,Pin Name,Pin Function,Pin description
+1,VOS,VOUT Sense,Output voltage sensing pin for current sensing application.
+2,AGND,Signal Ground,All signals are referenced to this pin.
+3,VCC,Supply Voltage for the IC,"5V supply voltage for internal control logic circuit. Connect a 1uF capacitor between VCC and AGND and place it as close to the pin as possible."
+4,VDRV,Drive Voltage Output,"5V supply voltage for internal gate drivers. Connect a 1uF capacitor between VDRV and DGND and place it as close to the pin as possible."
+5,DGND,Driver Ground,none
+6,GL,Lower Gate Driver Output,Synchronous MOSFET gate monitor pin enables the user to easily observe the waveform.
+7,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+8,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+9,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+10,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+11,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+12,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+13,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+14,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+15,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+16,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+17,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+18,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+19,SW,Switch Node,"Switching node of internal control/synchronous MOSFETs, and connects to the external inductor."
+20,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+21,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+22,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+23,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+24,PGND,Power Ground,"It is also the power ground of the synchronous MOSFET."
+25,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+26,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+27,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+28,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+29,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+30,VIN,Supply Voltage for the Power Stage,"4.5V to 16V input voltage connection."
+31,NC,Not Connected,This pin needs to be left floating in application.
+32,PHASE,Switch Node,"For bootstrap capacitor connection only. It is connected to SW internally."
+33,BOOT,Bootstrap Supply,"Connect a minimum 0.1uF capacitor in series with a 2.2Ω resistor from BOOT to PHASE pin. The bootstrap capacitor provides the charge to turn on the control MOSFET."
+34,PWM,PWM Input,Compatible with 3.3V/5V logic level PWM Input. "High level" turns control MOSFET on; "Tri-state" turns both MOSFETs off; "Low level" turns the synchronous MOSFET on.
+35,EN,Enable Control,"Pulling EN high enables the driver and requires maximum 15us power up time; pulling EN low disables the driver and enters ultralow quiescent current mode. There is no internal pull-up or pull-down mechanism to this pin."
+36,TOUT/FLT,Temperature Sense Reporting/ Fault Flag,"The voltage at this pin is defined by the equation: 8mV * (Temperature in Celsius of driver IC) + 0.6V. This pin will be pulled up to 3.3V internally under the following conditions: over temperature, over current, preliminary over voltage condition or phase fault condition."
+37,OCSET,Over Current Setting,"Setting over current threshold by placing a resistor from OCSET pin to AGND. If OCSET is floating or directly tied to VCC, the over current threshold is fixed at 80A. It is recommended to keep R_ocset above 37.5kΩ to keep OCP level under 80A."
+38,IMON,Current Sense Reporting,Sensed current output signal referenced to the REFIN pin. V(IMON - REFIN) voltage represents current information at 5mV/A.
+39,REFIN,Reference Input,"External reference voltage input for the IMON function. This pin has a low bias current and can be tied to a fixed voltage (1.2V recommended) between 1.1V and 1.8V from a PWM controller."
+40,EP I,AGND,Signal Ground.
+41,EP II,GL,Lower Gate Driver Output. Synchronous MOSFET driver pin that can be connected to a test point in order to observe the waveform.

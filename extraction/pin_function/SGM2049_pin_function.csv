@@ -1,0 +1,22 @@
+NO,Pin Name,Pin Function,Pin description
+1,OUT,Regulator Output Pin,It is recommended to use an output capacitor with effective capacitance in the range of 10µF to 1000µF to ensure stability. This ceramic capacitor should be placed as close as possible to OUT pin.
+19,OUT,Regulator Output Pin,It is recommended to use an output capacitor with effective capacitance in the range of 10µF to 1000µF to ensure stability. This ceramic capacitor should be placed as close as possible to OUT pin.
+20,OUT,Regulator Output Pin,It is recommended to use an output capacitor with effective capacitance in the range of 10µF to 1000µF to ensure stability. This ceramic capacitor should be placed as close as possible to OUT pin.
+2,SNS,Output Voltage Sense Input Pin,The SNS pin is connected to the load side of the output trace only when the pin-selectable programming mode is used. Keep SNS pin floating if the Vout voltage is set by external resistor.
+3,FB,Feedback Voltage Input Pin,Connect this pin to the midpoint of an external resistor divider to adjust the output voltage. Place the resistors as close as possible to this pin.
+4,PG,Power-Good Indicator Output Pin,"An open-drain, active-high output that indicates the status of Vout. When the output voltage reaches VTRPG of the target, the PG pin goes into a high-impedance state."
+5,50mV,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+6,100mV,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+7,200mV,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+9,400mV,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+10,800mV,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+11,1.6V,Output Voltage Setting Pin,"Select the desired output voltage by connecting these pins to the ground. Multiple pins can be connected to GND at the same time. When Vout is set by an external resistor, leave these pins floating (open)."
+12,BIAS,Bias Supply Voltage Pin for Internal Control Circuits,"This pin is monitored by internal under-voltage lockout circuit and enables the use of low-input voltage, low-output voltage conditions (VIN < 1.4V)."
+13,NR/SS,Noise-Reduction and Soft-Start Pin,"Using an external capacitor CNR/SS to decouple this pin to GND can not only reduce output noise to very low level but also slow down the Vout rise like a soft-start behavior."
+14,EN,Enable Pin,"Drive EN high to turn on the regulator. Drive EN low to turn off the regulator. This pin must be connected to IN or BIAS pin if enable functionality is not used."
+15,IN,Input Supply Voltage Pin,"It is recommended to use a 10µF or larger ceramic capacitor from IN pin to ground to get good power supply decoupling. This ceramic capacitor should be placed as close as possible to IN pin."
+16,IN,Input Supply Voltage Pin,"It is recommended to use a 10µF or larger ceramic capacitor from IN pin to ground to get good power supply decoupling. This ceramic capacitor should be placed as close as possible to IN pin."
+17,IN,Input Supply Voltage Pin,"It is recommended to use a 10µF or larger ceramic capacitor from IN pin to ground to get good power supply decoupling. This ceramic capacitor should be placed as close as possible to IN pin."
+8,GND,Ground,
+18,GND,Ground,
+ExposedPad,GND,Exposed Pad,"Connect it to GND internally. Connect it to a large ground plane to maximize thermal performance; this pad is not an electrical connection point."

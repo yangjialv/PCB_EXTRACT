@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,ENABLE,Chip enable,"Grounding this input puts the part in a low current (< 1 μA) mode. It also disables the rise time accelerators, isolates SDAIN from SDAOUT and isolates SCLIN from SCLOUT."
+2,SCLOUT,"Serial clock output to and from the SCL bus on the card",""
+3,SCLIN,"Serial clock input to and from the SCL bus on the backplane",""
+4,GND,Ground,"Connect this pin to a ground plane for best results."
+5,READY,"Open-drain output","Which pulls LOW when SDAIN and SCLIN are disconnected from SDAOUT and SCLOUT, and goes HIGH when the two sides are connected."
+6,SDAIN,"Serial data input to and from the SDA bus on the backplane",""
+7,SDAOUT,"Serial data output to and from the SDA bus on the card",""
+8,VCC,"Power supply",""

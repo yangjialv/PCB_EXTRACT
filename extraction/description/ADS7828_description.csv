@@ -1,0 +1,2 @@
+General Description
+"The ADS7828 is a single-supply, low-power, 12-bit data acquisition device that features a serial I2C interface and an 8-channel multiplexer. The Analog-to-Digital (A/D) converter includes a sample-and-hold amplifier and an internal asynchronous clock. The combination of an I2C serial, 2-wire interface and micropower consumption makes the ADS7828 ideal for applications requiring the A/D converter to be close to the input source in remote locations and for applications requiring isolation. The ADS7828 is available in a TSSOP-16 package."

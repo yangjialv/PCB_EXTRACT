@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,VCCA,Power supply (side A),Supplies the A-side power
+2,1A,Data I/O for bit1 (side A),"Data input/output for the first bit on A side"
+3,2A,Data I/O for bit2 (side A),"Data input/output for the second bit on A side"
+4,GND,Ground,Device ground reference
+5,DIR,Direction control,"Controls bus direction from A to B or B to A"
+6,2B,Data I/O for bit2 (side B),"Data input/output for the second bit on B side"
+7,1B,Data I/O for bit1 (side B),"Data input/output for the first bit on B side"
+8,VCC(B),Power supply (side B),Supplies the B-side power

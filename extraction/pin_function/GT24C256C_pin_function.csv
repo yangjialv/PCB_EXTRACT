@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,A0,Device Address Input,"The A0, A1, and A2 are the device address inputs. Typically, the A0, A1, and A2 pins are for hardware addressing and a total of 8 devices can be connected on a single bus system. When A0, A1, and A2 are left floating, the inputs are defaulted to zero."
+2,A1,Device Address Input,"The A0, A1, and A2 are the device address inputs. Typically, the A0, A1, and A2 pins are for hardware addressing and a total of 8 devices can be connected on a single bus system. When A0, A1, and A2 are left floating, the inputs are defaulted to zero."
+3,A2,Device Address Input,"The A0, A1, and A2 are the device address inputs. Typically, the A0, A1, and A2 pins are for hardware addressing and a total of 8 devices can be connected on a single bus system. When A0, A1, and A2 are left floating, the inputs are defaulted to zero."
+4,GND,Ground,"Ground of supply voltage."
+5,SDA,"Serial Address and Data input and Data out put","The SDA is a bi-directional pin used to transfer addresses and data into and out of the device. The SDA pin is an open drain output and can be wired with other open drain or open collector outputs. However, the SDA pin requires a pull-up resistor connected to the power supply."
+6,SCL,"Serial Clock Input","This input clock pin is used to synchronize the data transfer to and from the device."
+7,WP,"Write Protect Input","WP is the Write Protect pin. While the WP pin is connected to the power supply of GT24C256C, the entire array becomes Write Protected (i.e. the device becomes Read only). When WP is tied to Ground or left floating, the normal write operations are allowed."
+8,VCC,"Power Supply","Supply voltage."

@@ -1,0 +1,49 @@
+NO,Pin Name,Pin Function,Pin description
+1,1OE,Output Enable Inputs (Active-Low).,none
+2,1Y0,Data Outputs,none
+3,1Y1,Data Outputs,none
+4,GND,Ground,none
+5,1Y2,Data Outputs,none
+6,1Y3,Data Outputs,none
+7,Vcc,Supply Voltage,none
+8,2Y0,Data Outputs,none
+9,2Y1,Data Outputs,none
+10,GND,Ground,none
+11,2Y2,Data Outputs,none
+12,2Y3,Data Outputs,none
+13,3Y0,Data Outputs,none
+14,3Y1,Data Outputs,none
+15,GND,Ground,none
+16,3Y2,Data Outputs,none
+17,3Y3,Data Outputs,none
+18,Vcc,Supply Voltage,none
+19,4Y0,Data Outputs,none
+20,4Y1,Data Outputs,none
+21,GND,Ground,none
+22,4Y2,Data Outputs,none
+23,4Y3,Data Outputs,none
+24,4OE,Output Enable Inputs (Active-Low).,none
+25,3OE,Output Enable Inputs (Active-Low).,none
+26,4A3,Data Inputs,none
+27,4A2,Data Inputs,none
+28,GND,Ground,none
+29,4A1,Data Inputs,none
+30,4A0,Data Inputs,none
+31,Vcc,Supply Voltage,none
+32,3A3,Data Inputs,none
+33,3A2,Data Inputs,none
+34,GND,Ground,none
+35,3A1,Data Inputs,none
+36,3A0,Data Inputs,none
+37,2A3,Data Inputs,none
+38,2A2,Data Inputs,none
+39,GND,Ground,none
+40,2A1,Data Inputs,none
+41,2A0,Data Inputs,none
+42,Vcc,Supply Voltage,none
+43,1A3,Data Inputs,none
+44,1A2,Data Inputs,none
+45,GND,Ground,none
+46,1A1,Data Inputs,none
+47,1A0,Data Inputs,none
+48,2OE,Output Enable Inputs (Active-Low).,none

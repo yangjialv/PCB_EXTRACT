@@ -1,0 +1,4 @@
+NO,Pin Name,Pin Function,Pin description
+1,Source,This pin is the MOSFET Source,"Typically connected to reference or ground in low−side switching circuits. Provides the reference for controlling current flow through the MOSFET."
+2,Gate,This pin is the MOSFET Gate,"Control terminal for the MOSFET channel. The voltage level at this pin relative to the Source determines conduction."
+3,Drain,This pin is the MOSFET Drain,"Carries the load current when the MOSFET is turned on. Usually connected to the load or supply rail."
