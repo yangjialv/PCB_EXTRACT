@@ -1,0 +1,2 @@
+General Description
+"The NCA9555 is a 24-pin CMOS device that provides 16 bits of general-purpose parallel I/O expansion for I2C-bus applications. It simplifies adding extra I/Os for ACPI power switches, sensors, LEDs, fans, and more, featuring two 8-bit configuration registers, polarity inversion, and an open-drain interrupt output. It supports multiple address pins for up to eight devices on a shared I2C-bus."

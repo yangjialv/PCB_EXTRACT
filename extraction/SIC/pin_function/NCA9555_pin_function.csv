@@ -1,0 +1,25 @@
+NO,Pin Name,Pin Function,Pin description
+1,/INT,interrupt output (open-drain),none
+2,A1,address input 1,none
+3,A2,address input 2,none
+4,IO0_0,port 0 input/output,none
+5,IO0_1,port 0 input/output,none
+6,IO0_2,port 0 input/output,none
+7,IO0_3,port 0 input/output,none
+8,IO0_4,port 0 input/output,none
+9,IO0_5,port 0 input/output,none
+10,IO0_6,port 0 input/output,none
+11,IO0_7,port 0 input/output,none
+12,VSS,supply ground,none
+13,IO1_0,port 1 input/output,none
+14,IO1_1,port 1 input/output,none
+15,IO1_2,port 1 input/output,none
+16,IO1_3,port 1 input/output,none
+17,IO1_4,port 1 input/output,none
+18,IO1_5,port 1 input/output,none
+19,IO1_6,port 1 input/output,none
+20,IO1_7,port 1 input/output,none
+21,A0,address input 0,none
+22,SCL,serial clock line,none
+23,SDA,serial data line,none
+24,VDD,supply voltage,none

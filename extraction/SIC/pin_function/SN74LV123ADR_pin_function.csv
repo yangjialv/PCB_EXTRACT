@@ -1,0 +1,17 @@
+NO,Pin Name,Pin Function,Pin description
+1,1A,I,Channel 1 falling edge trigger input when 1B = L; Hold low for other input methods
+2,1B,I,Channel 1 rising edge trigger input when 1A = H; Hold high for other input methods
+3,1CLR,I,Channel 1 rising edge trigger input when 1A = H and 1B = L; Hold high for other input methods; Can cut pulse length short by driving low during output
+4,1Q,O,Channel 1 inverted output
+5,2Q,O,Channel 2 output
+6,2Cext,—,Channel 2 external capacitor negative connection
+7,2Rext/Cext,—,Channel 2 external capacitor and resistor junction connection
+8,GND,—,Ground
+9,2A,I,Channel 2 falling edge trigger input when 2B = L; Hold low for other input methods
+10,2B,I,Channel 2 rising edge trigger input when 2A = H; Hold high for other input methods
+11,2CLR,I,Channel 2 rising edge trigger input when 2A = H and 2B = L; Hold high for other input methods; Can cut pulse length short by driving low during output
+12,2Q,O,Channel 2 inverted output
+13,1Q,O,Channel 1 output
+14,1Cext,—,Channel 1 external capacitor negative connection
+15,1Rext/Cext,—,Channel 1 external capacitor and resistor junction connection
+16,VCC,—,Power supply

@@ -1,0 +1,2 @@
+General Description
+"These devices are edge-triggered multivibrators providing pulse-duration control through external resistor and capacitor values. They can be configured in three methods and include an optional CLR input for shortening the output pulse. Typically used to generate precise timing pulses in digital systems."

@@ -1,0 +1,2 @@
+General Description
+"SN74AVC16T245 is a 16-bit dual-supply bus transceiver with direction and output enable pins. It supports voltage levels from 1.2 V to 3.6 V on both A and B ports, allowing bidirectional data transfer and level shifting. The device can enter a high-impedance state when disabled and supports partial power-down applications."

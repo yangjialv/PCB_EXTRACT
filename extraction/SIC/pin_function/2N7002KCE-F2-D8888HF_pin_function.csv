@@ -1,0 +1,4 @@
+NO,Pin Name,Pin Function,Pin description
+1,S,"Transistor Source Terminal","Typically connected to reference or load return; in an N−Channel MOSFET, current flows from Drain to Source."
+2,G,"Transistor Gate Terminal","Voltage applied to this pin controls the conduction state between Drain and Source."
+3,D,"Transistor Drain Terminal","Main current−carrying node; typically connected to load or supply in the application."

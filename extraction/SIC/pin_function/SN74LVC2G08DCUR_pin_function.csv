@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,1A,I,"Channel 1 logic input"
+2,1B,I,"Channel 1 logic input"
+3,2Y,O,"Logic level output"
+4,GND,"—","Ground"
+5,2A,I,"Channel 2 logic input"
+6,2B,I,"Channel 2 logic input"
+7,1Y,O,"Logic level output"
+8,VCC,"—","Power Supply"

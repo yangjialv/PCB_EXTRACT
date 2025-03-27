@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+7,BYP,I,"Bypass input pin. Connect a 10-nF ceramic capacitor from BYP to OUT to reduce output noise."
+3,EN,I,"Regulator enable pin. Drive EN high to turn on the regulator, and drive EN low to turn off the regulator. For automatic startup, connect EN to IN directly."
+6,FB,I,"Output voltage feedback pin. Connect to a resistor divider to adjust the output voltage."
+2,GND,-,"Ground reference pin. Connect the GND pin to the PCB ground plane directly."
+4,GS,-,"Internal reference pin. MUST connect GS pin to PCB ground plane directly."
+1,IN,I,"Input voltage pin. Bypass IN to GND with a 10 μF or greater capacitor."
+8,OUT,O,"Regulated output voltage pin. Bypass OUT to GND with a 4.7 μF or greater capacitor."
+5,PG,I,"Open-drain power-good output pin. Connect a 100-kΩ pull-up resistor to the logic voltage supply, or leave this pin open if not used. PG goes LOW after the output voltage ramps above VPG_TH, and PG keeps HIGH when the output voltage is below the threshold."

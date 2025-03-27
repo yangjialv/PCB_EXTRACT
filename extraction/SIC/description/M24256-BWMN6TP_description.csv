@@ -1,0 +1,2 @@
+General Description
+"The M24256 is a 256-Kbit I2C-compatible EEPROM (Electrically Erasable Programmable Memory) organized as 32K x 8 bits. It supports supply voltages from 1.7 V to 5.5 V (depending on the version), operates up to 1 MHz, and is rated from –40 °C to +85 °C. The M24256-D variant includes an additional 64-byte identification page that can be permanently locked in read-only mode."

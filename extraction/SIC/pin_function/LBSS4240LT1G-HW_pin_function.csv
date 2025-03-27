@@ -1,0 +1,4 @@
+NO,Pin Name,Pin Function,Pin description
+1,BASE,"Control terminal of the NPN transistor","Used to drive or control the transistor’s conduction between collector and emitter."
+2,EMITTER,"Emitter terminal of the NPN transistor","Provides the reference for current flow from the transistor into the external circuit."
+3,COLLECTOR,"Collector terminal of the NPN transistor","Collects current flowing through the transistor and connects to the load or supply."

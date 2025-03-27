@@ -1,0 +1,97 @@
+NO,Pin Name,Pin Function,Pin Description
+A1,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+A2,VSSQ,Supply,DQ Ground
+A3,DQ0,Input/Output,Bi-directional data bus (DQ)
+A7,DQSU_c, Input / Output," Data Strobe: output with read data, input with write data. Edge-aligned with read data, centered in write data. "
+A8,VSSQ,Supply,DQ Ground
+A9,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+B1,VPP,Supply,DRAM Activating Power Supply: 2.5 V (2.375 V–2.75 V)
+B2,VSS,Supply,Ground
+B3,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+B7, DQSU_t,Input/Output,"Data Strobe: output with read data, input with write data. Edge-aligned with read data, centered in write data. "
+B8,DQ1,Input/Output,Bi-directional data bus (DQ)
+B9,VDD,Supply,Power Supply: 1.2 V +/- 0.06 V
+C1,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+C2,DQ4,Input/Output,Bi-directional data bus (DQ)
+C3,DQ2,Input/Output,Bi-directional data bus (DQ)
+C7, DQ3,Input/Output,Bi-directional data bus (DQ)
+C8,DQ5,Input/Output,Bi-directional data bus (DQ)
+C9,VSSQ,Supply,DQ Ground
+D1,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+D2,VSSQ,Supply,DQ Ground
+D3,DQ6,Input/Output,Bi-directional data bus (DQ)
+D7,DQ7,Input/Output,Bi-directional data bus (DQ)
+D8,VSSQ,Supply,DQ Ground
+D9,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+E1,VSS,Supply,Ground
+E2,DMU_n/DBIU_n,Input/Output,Data Mask/Data Bus Inversion for upper byte
+E3,VSSQ,Supply,DQ Ground
+E7,"DML_n/DBIL_n", Input/Output,Input Data Mask and Data Bus Inversion
+E8,VSSQ,Supply,DQ Ground
+E9,VSS,Supply,Ground
+F1,VSSQ,Supply,DQ Ground
+F2,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+F3,DQSL_c,Input/Output,Data Strobe (complement) for lower byte (x16)
+F7,DQL1,Input/Output,Bi-directional data bus (DQ)
+F8,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+F9,ZQ,Supply, Reference Pin for ZQ calibration
+G1,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+G2,DQL0,Input/Output,Bi-directional data bus (DQ)
+G3,DQSL_t,Input/Output,Data Strobe (true) for lower byte (x16)
+G7,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+G8,VSS,Supply,Ground
+G9,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+H1,VSSQ,Supply,DQ Ground
+H2,DQL4,Input/Output,Bi-directional data bus (DQ)
+H3,DQL2,Input/Output,Bi-directional data bus (DQ)
+H7, DQL3,Input/Output,Bi-directional data bus (DQ)
+H8,DQL5,Input/Output,Bi-directional data bus (DQ)
+H9,VSSQ,Supply,DQ Ground
+J1,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+J2,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+J3,DQL6,Input/Output,Bi-directional data bus (DQ)
+J7,DQL7,Input/Output,Bi-directional data bus (DQ)
+J8,VDDQ,Supply,DQ Power Supply: 1.2 V ±0.06 V
+J9,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+K1,VSS,Supply,Ground
+K2,CKE,Input,Clock Enable
+K3,ODT,Input,On Die Termination control
+K7, CK_t, Input," Clock: CK_t and CK_c are differential clock inputs. All address and control input signals are sampled on the crossing of the positive edge of CK_t and negative edge of CK_c."
+K8, CK_c, Input," Clock: CK_t and CK_c are differential clock inputs. All address and control input signals are sampled on the crossing of the positive edge of CK_t and negative edge of CK_c."
+K9,VSS,Supply,Ground
+L1,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+L2,WE_n/A14,Input,Write Enable signal and/or address bit A14
+L3,ACT_n,Input,Activation Command
+L7,CS_n,Input," Chip Select: All commands are masked when CS_n is registered HIGH. CS_n provides for external Rank selection on systems with multiple Ranks. CS_n is considered part of the command code."
+L8,RAS_n,Input,"Command Inputs: RAS_n/A16, CAS_n/A15 and WE_n/A14 (along with CS_n) define the command being entered. Those pins have multi function. For example, for activation with ACT_n Low, those are Addressing like A16,A15 and A14 but for non-activation command with ACT_n High, those are Command pins for Read, Write and other command defined in command truth table"
+L9,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+M1,VREFCA,Supply,Reference voltage for Command/Address
+M2,BG0,Input,Bank Group address bit 0
+M3,A10/AP,Input,"Auto-precharge: A10 is sampled during Read/Write commands to determine whether Autoprecharge should be performed to the accessed bank after the Read/Write operation. (HIGH: Autoprecharge; LOW: no Autoprecharge).A10 is sampled during a Precharge command to determine whether the Precharge applies to one bank (A10 LOW) or all banks (A10 HIGH). If only one bank is to be precharged, the bank is selected by bank addresses. "
+M7,A12/BC_n,Input,"Burst Chop: A12 / BC_n is sampled during Read and Write commands to determine if burst chop (on-the fly) will be performed. (HIGH, no burst chop; LOW: burst chopped). See command truth table for details."
+M8,CAS_n,Input,"Command Inputs: RAS_n/A16, CAS_n/A15 and WE_n/A14 (along with CS_n) define the command being entered. Those pins have multi function. For example, for activation with ACT_n Low, those are Addressing like A16,A15 and A14 but for non-activation command with ACT_n High, those are Commandpins for Read, Write and other command defined in command truth table"
+M9,VSS,Supply,Ground
+N1,VSS,Supply,Ground
+N2,BA0,Input,Bank Address bit 0
+N3,A4,Input,Address bit A4
+N7,A3, Input,Address bit A3
+N8,BA1,Input,"Bank Address Inputs: BA0 - BA1 define to which bank an Active, Read, Write or Precharge command is being applied. Bank address also determines which mode register is to be accessed during a MRS cycle."
+N9, TEN,input,"Connectivity Test Mode Enable : Required on X16 devices and optional input on x4/x8 with densities equal to or greater than 8Gb.HIGH in this pin will enable Connectivity Test Mode operation along with other pins. It is a CMOS rail to rail signal with AC high and low at 80% and 20% of VDD. Using this signal or not is dependent on System. This pin may be DRAM internally pulled low through a weak pull-down resistor to VSS."
+P1,RESET_n,Input,Active-Low Reset
+P2,A6,Input,Address bit A6
+P3,A0,Input,Address bit A0
+P7, A1,Input,Address bit A1
+P8, A5,Input,Address bit A5
+P9, ALERT_n, Input/Output," Alert : It has multi functions such as CRC error flag , Command and Address Parity error flag as Output signal. If there is error in CRC, then Alert_n goes LOW for the period time interval and goes back HIGH. If there is error in Command Address Parity Check, then Alert_n goes LOW for relatively long period until on going DRAM internal recovery transaction to complete. During Connectivity Test mode, this pin works as input."
+R1,VDD,Supply,Power Supply: 1.2 V ±0.06 V
+R2,A8,Input,Address bit A8
+R3,A2,Input,Address bit A2
+R7, A9,Input,Address bit A9
+R8, A7,Input,Address bit A7
+R9,VPP,Supply,"DRAM Activating Power Supply: 2.5V ( 2.375V min , 2.75V max)"
+T1,VSS,Supply,Ground
+T2,A11,Input,Address bit A11
+T3,PAR,Input,Command and Address Parity input
+T7,NC,NC,NC
+T8,A13,Input,Address bit A13
+T9,VDD,Supply,Power Supply: 1.2 V ±0.06 V

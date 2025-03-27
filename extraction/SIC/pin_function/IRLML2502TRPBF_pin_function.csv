@@ -1,0 +1,4 @@
+NO,Pin Name,Pin Function,Pin description
+1,G,Gate,"Controls conduction of the MOSFET; applying a voltage to this pin switches the MOSFET on or off."
+2,S,Source,"Reference terminal for the MOSFET, typically connected to ground in a low-side configuration."
+3,D,Drain,"Main current-carrying terminal, typically connected to the load or positive supply rail."

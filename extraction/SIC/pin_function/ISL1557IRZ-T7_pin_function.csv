@@ -1,0 +1,17 @@
+NO,Pin Name,Pin Function,Pin description
+1,NC,No connect,none
+2,INA-,Inverting input of Amplifier A,none
+3,INA+,Non-inverting input of Amplifier A,none
+4,GND,Ground connect,none
+5,NC,No connect,none
+6,NC,No connect,none
+7,VS-,Negative supply,none
+8,C0,Current control bias pin,"The single DSL port is made of Amplifiers A and B. C0 and C1 control I(s) settings for the DSL port."
+9,C1,Current control bias pin,"The single DSL port is made of Amplifiers A and B. C0 and C1 control I(s) settings for the DSL port."
+10,INB+,Non-inverting input of Amplifier B,none
+11,INB-,Inverting input of Amplifier B,none
+12,NC,No connect,none
+13,OUTB,Output of Amplifier B,none
+14,VS+,Positive supply,none
+15,NC,No connect,none
+16,OUTA,Output of Amplifier A,none

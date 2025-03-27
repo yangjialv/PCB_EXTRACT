@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,S,Source,"This is the source of the P-channel MOSFET, typically connected to the higher potential rail."
+2,S,Source,"This is the source of the P-channel MOSFET, typically connected to the higher potential rail."
+3,S,Source,"This is the source of the P-channel MOSFET, typically connected to the higher potential rail."
+4,G,Gate,"Gate pin for controlling the MOSFET conduction state."
+5,G,Gate,"Gate pin for controlling the MOSFET conduction state."
+6,D,Drain,"This is the drain of the P-channel MOSFET, usually connected to the load or system output."
+7,D,Drain,"This is the drain of the P-channel MOSFET, usually connected to the load or system output."
+8,D,Drain,"This is the drain of the P-channel MOSFET, usually connected to the load or system output."

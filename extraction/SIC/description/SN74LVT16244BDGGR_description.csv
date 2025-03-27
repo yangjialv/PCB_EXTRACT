@@ -1,0 +1,2 @@
+General Description
+"SN54LVT16244B and SN74LVT16244B are 16-bit buffers and line drivers designed for low-voltage (3.3-V) VCC operation with the capability to provide a TTL interface to a 5-V system. These devices offer true outputs with symmetrical active-low output-enable inputs, support hot-insertion applications through Ioff circuitry, and include power-up 3-state features to prevent driver conflicts. They can be used as four 4-bit buffers, two 8-bit buffers, or a single 16-bit buffer."
