@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,CS,Chip Select,"Used to select the device when driven low."
+2,SO/SO1,Serial Data Output / Serial Data Output 1,"Provides serial data output for read operations."
+3,WP/SO2,Write Protect / Serial Data Output 2,"If the WP pin is low and BRWD bit is set to 1, overwriting for the BRWD (bit [7]) and the BL bits (bits [5:3]) in address A0h of the feature table is prohibited. The users should keep the status of WP signal while CS pin is low. The HOLD pin and the WP pin are pull-up to Vcc internally."
+4,Vss,Ground,"Ground reference for the device."
+5,SI/SO0,Serial Data Input / Serial Data Output 0,"Provides serial data input for program/command operations."
+6,SCK,Serial Clock Input,"Accepts serial clock input for SPI operations."
+7,HOLD/SO3,Hold Input / Serial Data Output 3,"HOLD pin for pausing device operation, also serves as Serial Data Output 3. Pulled up to Vcc internally."
+8,VCC,Power Supply,"Power supply pin for the device."

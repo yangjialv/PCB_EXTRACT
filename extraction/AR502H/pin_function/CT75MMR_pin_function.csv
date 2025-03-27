@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,SDA,"Digital interface data input or output pin","Need a pull-up resistor to VCC."
+2,SCL,"Digital interface clock input pin","Need a pull-up resistor to VCC."
+3,ALERT,"Indicates ALERT of over/under temperature (open-drain output) with programmable active level","Need a pull-up resistor to VCC in application."
+4,GND,"Ground pin","none"
+5,A2,"Address selection pin","The chip can define 32 different slave addresses by connecting this pin to GND, VCC, SCL or SDA. Do not leave it open. See 1.5.1 Slave Address for detail."
+6,A1,"Address selection pin","The chip can define 32 different slave addresses by connecting this pin to GND, VCC, SCL or SDA. Do not leave it open. See 1.5.1 Slave Address for detail."
+7,A0,"Address selection pin","The chip can define 32 different slave addresses by connecting this pin to GND, VCC, SCL or SDA. Do not leave it open. See 1.5.1 Slave Address for detail."
+8,VCC,"Power supply input pin","Use a 0.1µF low ESR ceramic capacitor to ground."

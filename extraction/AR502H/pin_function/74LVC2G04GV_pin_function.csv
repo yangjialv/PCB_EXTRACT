@@ -1,0 +1,7 @@
+NO,Pin Name,Pin Function,Pin description
+1,1A,Inverter 1 input,"I/O: I"
+6,1Y,Inverter 1 output,"I/O: O"
+3,2A,Inverter 2 input,"I/O: I"
+4,2Y,Inverter 2 output,"I/O: O"
+2,GND,Ground,""
+5,VCC,Power,""

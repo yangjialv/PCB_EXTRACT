@@ -1,0 +1,2 @@
+General Description
+"CT75 is a digital temperature sensor with ±0.5°C accuracy. Temperature data can be read out directly via a digital interface (compatible with SMBus, I²C or 2-wire). Each chip is factory-calibrated for ±0.5°C from 0°C to 50°C, eliminating the need for re-calibration. It features a high precision band-gap circuit, a 12-bit ADC, non-volatile calibration memory, and a digital interface block. An open-drain ALERT output pin is available for monitoring over/under temperature. The device can also function as a standalone thermostat."

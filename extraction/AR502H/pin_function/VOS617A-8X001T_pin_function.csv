@@ -1,0 +1,5 @@
+NO,Pin Name,Pin Function,Pin description
+1,"A","LED Anode","Infrared LED anode (input side). Apply forward current as specified to drive the LED."
+2,"C","LED Cathode","Infrared LED cathode (input side). Refer to recommended drive conditions in datasheet."
+3,"E","Phototransistor Emitter","Emitter terminal of the output phototransistor."
+4,"C","Phototransistor Collector","Collector terminal of the output phototransistor."

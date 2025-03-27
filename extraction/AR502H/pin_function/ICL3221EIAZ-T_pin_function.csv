@@ -1,0 +1,17 @@
+NO,Pin Name,Pin Function,Pin description
+1,EN,Active low receiver enable control,Does not disable ROUTB outputs
+2,C1+,External capacitor (voltage doubler) is connected to this lead,
+3,V+,Internally generated positive transmitter supply (+5.5V),
+4,C1-,External capacitor (voltage doubler) is connected to this lead,
+5,C2+,External capacitor (voltage inverter) is connected to this lead,
+6,C2-,External capacitor (voltage inverter) is connected to this lead,
+7,V-,Internally generated negative transmitter supply (-5.5V),
+8,R1IN,"±15kV ESD protected, RS-232 compatible receiver input",
+9,R1OUT,TTL/CMOS level receiver output,
+10,INVALID,Active low output that indicates no valid RS-232 levels are present on any receiver input,
+11,T1IN,TTL/CMOS compatible transmitter input,
+12,FORCEON,"Active high input to override automatic power-down circuitry","Which keeps transmitters active (FORCEOFF must be high)"
+13,T1OUT,"±15kV ESD protected, RS-232 level (nominally ±5.5V) transmitter output",
+14,GND,Ground connection,
+15,VCC,System power supply input (3.0V to 5.5V),
+16,FORCEOFF,"Active low to shut down transmitters and on-chip power supply","This overrides any automatic circuitry and FORCEON"

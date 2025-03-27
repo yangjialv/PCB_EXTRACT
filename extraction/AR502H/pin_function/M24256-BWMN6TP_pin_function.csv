@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,E0,Chip Enable (Input),"Used for device addressing on the I2C bus; must be driven high or low, not left floating."
+2,E1,Chip Enable (Input),"Used for device addressing on the I2C bus; must be driven high or low, not left floating."
+3,E2,Chip Enable (Input),"Used for device addressing on the I2C bus; must be driven high or low, not left floating."
+4,VSS,Ground,"Device ground reference pin."
+5,SDA,Serial Data (I/O),"Transfers data into and out of the device on the I2C bus."
+6,SCL,Serial Clock (Input),"I2C clock input used to synchronize data transfers."
+7,WC,Write Control (Input),"When driven high, write operations are disabled; when driven low, write operations are enabled."
+8,VCC,Supply voltage,"Power supply for the device."

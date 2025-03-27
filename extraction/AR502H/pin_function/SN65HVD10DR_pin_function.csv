@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,R,Digital output,"Receive data output"
+2,RE,Digital input,"Active-low receiver enable"
+3,DE,Digital input,"Active-high driver enable"
+4,D,Digital input,"Driver data input"
+5,GND,Reference potential,"Local device ground"
+6,A,Bus input/output,"Driver output or receiver input (complementary to B)"
+7,B,Bus input/output,"Driver output or receiver input (complementary to A)"
+8,VCC,Supply,"3-V to 3.6-V supply"

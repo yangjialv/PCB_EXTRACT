@@ -1,0 +1,2 @@
+General Description
+"The 74LVC2G08 is a dual 2-input AND gate. Inputs can be driven from either 3.3 V or 5 V devices. This feature allows the use of these devices as translators in mixed 3.3 V and 5 V environments. Schmitt-trigger action at all inputs makes the circuit tolerant of slower input rise and fall times. This device is fully specified for partial power-down applications using IOFF. The IOFF circuitry disables the output, preventing the potentially damaging backflow current through the device when it is powered down."

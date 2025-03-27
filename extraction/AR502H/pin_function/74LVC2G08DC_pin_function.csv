@@ -1,0 +1,9 @@
+NO,Pin Name,Pin Function,Pin description
+1,1A,data input,none
+2,1B,data input,none
+3,2Y,data output,none
+4,GND,ground (0 V),none
+5,2A,data input,none
+6,2B,data input,none
+7,1Y,data output,none
+8,VCC,supply voltage,none

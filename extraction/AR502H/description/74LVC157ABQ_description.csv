@@ -1,0 +1,2 @@
+General Description
+"The 74LVC157A is a quad 2-input multiplexer. The device features select (S) and enable E inputs. A HIGH on S selects data source 1, a LOW data source 0. A HIGH on E forces all the outputs (1Y to 4Y) LOW. Inputs can be driven from either 3.3 V or 5 V devices. This feature allows the use of these devices as translators in mixed 3.3 V and 5 V applications. Schmitt-trigger action at all inputs makes the circuit tolerant of slower input rise and fall times."

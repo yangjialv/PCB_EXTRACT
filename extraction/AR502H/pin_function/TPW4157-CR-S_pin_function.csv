@@ -1,0 +1,7 @@
+NO,Pin Name,Pin Function,Pin description
+1,B1,Switch port 1,"Switch port 1"
+2,GND,Ground,"Ground"
+3,B0,Switch port 0,"Switch port 0"
+4,A,Common switch port,"Common switch port"
+5,Vcc,Power supply,"Power supply"
+6,Select,Select pin,"Select pin"

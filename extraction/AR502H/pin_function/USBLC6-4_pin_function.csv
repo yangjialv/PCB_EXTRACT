@@ -1,0 +1,7 @@
+NO,Pin Name,Pin Function,Pin description
+1,I/O1,Line to be protected,"This pin is connected internally for ESD protection on the data line, helping to maintain signal integrity."
+2,GND,Ground reference,"Provides the reference path for ESD current to flow during a transient event."
+3,I/O2,Line to be protected,"This pin is connected internally for ESD protection on the data line, helping to maintain signal integrity."
+4,I/O3,Line to be protected,"This pin is connected internally for ESD protection on the data line, helping to maintain signal integrity."
+5,VBUS,Supplies reference for ESD clamp,"Allows ESD current to flow to ground when an ESD event occurs on the data line."
+6,I/O4,Line to be protected,"This pin is connected internally for ESD protection on the data line, helping to maintain signal integrity."
